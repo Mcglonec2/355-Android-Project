@@ -1,4 +1,4 @@
-package com.example.bbs;
+package com.example.fimas;
 
 import org.junit.Test;
 
