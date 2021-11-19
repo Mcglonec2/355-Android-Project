@@ -4,10 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DF3F2A"
+    android:background="#E1402B"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="219dp"
+        android:layout_height="85dp"
+        android:text="HIGH SCORES"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        tools:layout_editor_absoluteY="264dp" />
+
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="The title"
@@ -16,7 +27,21 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="56dp"
-        tools:text="Game title" />
+        tools:layout_editor_absoluteY="41dp"
+        tools:text="Game Title" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="219dp"
+        android:layout_height="85dp"
+        android:background="#54C13F"
+        android:backgroundTint="#56D640"
+        android:backgroundTintMode="screen"
+        android:text="PLAY"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        tools:layout_editor_absoluteY="154dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
