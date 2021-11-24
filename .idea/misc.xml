@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/swagm/Documents/Repositories/FIMAS/app/src/main/res/layout-land/activity_main.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/swagm/Documents/Repositories/FIMAS/app/src/main/res/layout-land/difficulty_screen.xml" value="0.23236331569664903" />
+        <entry key="..\:/Users/swagm/Documents/Repositories/FIMAS/app/src/main/res/layout-land/scores_screen.xml" value="0.23236331569664903" />
         <entry key="..\:/Users/swagm/Documents/Repositories/FIMAS/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Users/swagm/Documents/Repositories/FIMAS/app/src/main/res/layout/difficulty_screen.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/swagm/Documents/Repositories/FIMAS/app/src/main/res/layout/scores_screen.xml" value="0.23867753623188406" />
       </map>
     </option>
   </component>

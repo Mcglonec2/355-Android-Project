@@ -20,6 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".DifficultyScreen"></activity>
+        <activity android:name=".ScoresScreen"></activity>
     </application>
 
 </manifest>

@@ -28,5 +28,16 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button scores = (Button) findViewById(R.id.scoreButton);
+        scores.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(TAG, "onClick: Clicked play button");
+
+                Intent intent = new Intent(MainActivity.this, ScoresScreen.class);
+                startActivity(intent);
+            }
+        });
     }
 }
