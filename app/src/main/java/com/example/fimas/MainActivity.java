@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Log.d(TAG, "onCreate: Starting");
 
-        Button play = (Button) findViewById(R.id.playButton);
+        /* Button play = (Button) findViewById(R.id.playButton);
         play.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,6 +38,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, ScoresScreen.class);
                 startActivity(intent);
             }
-        });
+        }); */
     }
 }
