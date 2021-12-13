@@ -9,19 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/FIMAS">
-        <activity
-            android:name=".MainActivity"
-            android:theme="@style/FIMAS.noActionBar"
+        <activity android:name=".MainActivity"
             android:exported="true"
-            android:screenOrientation="userLandscape">
+            android:theme="@style/FIMAS.noActionBar"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DifficultyScreen"></activity>
-        <activity android:name=".ScoresScreen"></activity>
+        <activity android:name=".DifficultyScreen"
+            android:exported="true"
+            android:theme="@style/FIMAS.noActionBar"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name=".ScoresScreen"
+            android:exported="true"
+            android:theme="@style/FIMAS.noActionBar"
+            android:screenOrientation="landscape">
+        </activity>
     </application>
 
 </manifest>

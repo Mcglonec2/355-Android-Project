@@ -4,57 +4,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:id="@+id/StartScreen">
-
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/red"
-        android:scaleType="centerCrop"/>
+    android:id="@+id/MainScreen"
+    android:background="@drawable/red">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="48sp"
-        android:text="Game Title"
+        android:text="Speed Tapper"
         android:textColor="#ffffff"
         android:layout_above="@id/play"
         android:layout_below="@id/BGChange"
         android:layout_centerHorizontal="true"/>
 
     <Button
+        android:id="@+id/play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="48sp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#00FFFFFF"
         android:text="Play"
         android:textColor="#000000"
-        android:background="@color/material_on_surface_disabled"
-        android:layout_centerInParent="true"
-        android:layout_margin="16dp"
-        android:id="@+id/play"/>
+        android:textSize="48sp" />
 
     <Button
+        android:id="@+id/scores"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="48sp"
+        android:layout_below="@id/play"
+        android:layout_centerInParent="true"
+        android:background="#00FFFFFF"
         android:text="Scores"
         android:textColor="#000000"
-        android:background="@color/material_on_surface_disabled"
-        android:layout_centerInParent="true"
-        android:layout_below="@id/play"
-        android:id="@+id/scores"/>
+        android:textSize="48sp" />
 
     <Button
+        android:id="@+id/BGChange"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="Change BG"
-        android:textColor="#000000"
-        android:background="@color/material_on_surface_disabled"
-        android:textAllCaps="false"
         android:layout_alignParentLeft="true"
-        android:layout_margin="8dp"
-        android:id="@+id/BGChange"/>
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#00FFFFFF"
+        android:text="Change BG"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
 </RelativeLayout>
